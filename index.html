@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Mega Mart</h1>
+    <h3>Your Complete Shopping Destination</h3>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Electronics</a></li>
+        <li><a href="">Fashion</a></li>
+        <li><a href="">Books</a></li>
+        <li><a href="">Cart</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+    <h3>Product Search</h3>
+    <form>
+        <input type="text" placeholder="Search over 10,000" required>
+        <button type="submit">Search</button>
+    </form>
+    <h3>Featured Products</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Products</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Stock</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Wireless Headphones</td>
+                <td>Premium noise-cancelling Bluetooth headphones<ul>
+                        <li>40mm drivers</li>
+                        <li>30-hours battery</li>
+                        <li>IPX4 waterproof</li>
+                    </ul>
+                </td>
+                <td>price</td>
+                <td>In stock</td>
+                <td><button>Add to cart</button><br> Available quantities:15</td>
+            </tr>
+            <tr>
+                <td>Smart Watch Pro</td>
+                <td>Advance fitness tracking smart watch<ul>
+                        <li>Heart rate monitor</li>
+                        <li>GPS tracking</li>
+                        <li>Water resistant</li>
+                    </ul>
+                </td>
+                <td>price</td>
+                <td>Low stock</td>
+                <td><button>Add to cart</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Create My Account</h3>
+    <form action="">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="Name">First Name</label>
+            <input type="text" id="Name">
+            <label for="name">Last Name</label>
+            <input type="text" id="name">
+            <label for="date of birth">Date of Birth</label>
+            <input type="date" id="date of birth">
+            Gender:
+            <label for="gender">Male</label>
+            <input type="radio" name="gender">
+            <label for="gender">Female</label>
+            <input type="radio" name="gender">
+        </fieldset>
+        <fieldset>
+            <legend>Account Details</legend>
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+            <label for="phone number">Phone Number</label>
+            <input type="number" id="phone number">
+            <label for="subscribes to Newsletter">Subscribes to Newsletter</label>
+            <input type="radio" id="subscribes to Newsletter">
+        </fieldset>
+        <fieldset>
+            <legend>Shipping Address</legend>
+            <label for="address">Street Address:</label>
+            <input type="text" id="address">
+            <label for="country">Country:</label>
+            <input type="text" id="country">
+            <label for="zipcode">Zip Code:</label>
+            <input type="text" id="zipcode">
+        </fieldset>
+        <button>Create Account</button>
+        <button>Clear Form</button>
+    </form>
+    <h3>Product Comparison</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Feature</th>
+                <th>Basic Model</th>
+                <th>Pro Model</th>
+                <th>Premium Model</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Battery Life</td>
+                <td>8 hours</td>
+                <td>12 hours</td>
+                <td>24 hours</td>
+            </tr>
+            <tr>
+                <td>Water Resistant</td>
+                <td>IPX4</td>
+                <td>IPX7</td>
+                <td>IP68</td>
+            </tr>
+            <tr>
+                <td>Warrenty</td>
+                <td>1 year</td>
+                <td colspan="2">2 years</td>
+            </tr>
+            <tr>
+                <td colspan="4">* All prices include VAT</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Checkout Process</h3>
+    <form action="">
+        <fieldset>
+            <legend>Payment Information</legend>
+            <label for="">Card Type:</label>
+            <input type="radio" name="gender">
+            <label for="gender">Visa</label>
+            <input type="radio" name="gender">
+            <label for="gender">MasterCard</label>
+            <input type="radio" name="gender">
+            <label for="gender">AmericanExpress</label><br>
+            <label for="number">Card Number:</label>
+            <input type="number" id="number">
+            <label for="date">Expiry Date:</label>
+            <input type="date" id="date">
+        </fieldset>
+        <fieldset>
+            <legend>Order Summary</legend>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Wireless Headphones</td>
+                        <td>2</td>
+                        <td>$299.98</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>-</td>
+                        <td>$15.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Total</td>
+                        <td>$314.98</td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset><br>
+        <button>Complete Purchase</button>
+    </form>
+    <h3>Product Video</h3>
+    <video src="video.mp4" width="350px" controls></video>
+    <h4>Product Audio Description</h4>
+    <audio src="audio.mp3" controls></audio>
+    <h3>Contact Us</h3>
+    <p>
+        <label for="email">Email:</label>
+        <a href="mailto:wk3075507@gmail.com">wk3075507@gmail.com</a><br><br>
+        <label for="number">Phone Number:</label>
+        <a href="tel:+923303475507">+923303475507</a><br><br>
+        Address: 123 Commerce street New York NY 10001
+    </p>
+    <p>Here is our location</p>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.44680149891!2d67.06817459999999!3d24.8827368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33fbb0adad14f%3A0xd4034f7f251f28e5!2sSaylani%20job%20bank!5e0!3m2!1sen!2s!4v1744065883349!5m2!1sen!2s"
+        width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <p>Checkout the latest Video</p>
+    <iframe width="360" height="315" src="https://www.youtube.com/embed/sagHGAN1jI8?si=GA_Pv29m1w8xx1eA"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <footer>
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a href="">Terms of Services</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Return Policy</a></li>
+        </ul>
+        <p>© 2025 MegaMart All rights reserved</p>
+        <p>Follow us on <a href="">Social Media</a></p>
+    </footer>
+</body>
+
+</html>
